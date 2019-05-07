@@ -1,0 +1,63 @@
+.btn {
+    padding: 10px 36px;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: $font-14;
+    box-shadow: 0.4px 0.4px 10px rgba(0, 0, 0, 0.3);
+    &:focus {
+        outline: none;
+    }
+}
+
+a.btn-primary,
+.btn-primary {
+    background: $primary;
+    color: $light;
+}
+
+.btn-person {
+    height: 30px;
+    width: 29px;
+    background: #ffffffb8;
+    position: absolute;
+    z-index: 22;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 12%;
+    box-shadow: 0.3px 0.3px 4px rgba(132, 132, 132, 0.8);
+    
+    i {
+        padding: 5px;
+        font-size: $font-16;
+        color: #0d9943;
+        text-shadow: 0.3px 0.2px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.btn-mobile {
+    top: 30%;
+    height: 4px;
+    width: 36px;
+    background: #00a651;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0.5px 1px 1px rgba(0, 0, 0, 0.2);
+    &::before,
+    &::after {
+        content: "";
+        height: 4px;
+        width: 36px;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        background: #18aa67;
+        border-radius: 10px;
+        box-shadow: 0.5px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+    &::after {
+        top: -10px;
+    }
+}

@@ -1,0 +1,32 @@
+.fixer {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    transition: 0.2s;
+    box-shadow: 0.5px 0.5px 26px rgba(0, 0, 0, 0.08);
+}
+
+.show-info {
+    opacity: 1 !important;
+    right: 0px !important;
+}
+
+.actm_menu {
+    box-shadow: none;
+    &::before,
+    &::after {
+        box-shadow: none;
+    }
+}
+
+.show-subm {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.show-menu {
+    left: 0px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}

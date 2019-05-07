@@ -1,0 +1,19 @@
+// BOOTSTRAP 4
+@import "boostrap";
+// MY CUSTOMS
+@import "variable";
+// MIXINS
+@import "mixin";
+// HEADER
+@import"../layout/header";
+// MAIN
+@import "../layout/main";
+@import "../pages/details";
+@import "../pages/contact";
+// FOOTER
+@import "../layout/footer";
+@import "button";
+// Reset
+@import "reset";
+// Transition
+@import "transition";

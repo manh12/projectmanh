@@ -1,0 +1,59 @@
+a:hover {
+    text-decoration: none;
+}
+
+.border-2 {
+    border: 2px solid $light;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+///
+.icon_01 {
+    background: url('../../assets/images/icon_01.png');
+    width: 54px;
+    height: 54px;
+    display: block;
+}
+
+.icon_02 {
+    background: url('../../assets/images/icon_02.png');
+    width: 54px;
+    height: 54px;
+    display: block;
+}
+
+.icon_03 {
+    background: url('../../assets/images/icon_03.png');
+    width: 54px;
+    height: 54px;
+    display: block;
+}
+
+#map {
+    width: 100%;
+    height: 350px;
+}
+
+#lang {
+    display: inline-block;
+    position: fixed;
+    top: 30px;
+    right: 0%;
+    a {
+        display: inherit;
+        width: 20px;
+        float: left;
+        margin-right: 15px;
+    }
+}

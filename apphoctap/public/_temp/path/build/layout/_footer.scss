@@ -1,0 +1,139 @@
+.main-footer {
+    padding: 45px 0px 25px;
+    border-bottom: 1px solid #292929;
+}
+
+.title-wiget {
+    font-size: $font-20;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: $light;
+    &::before {
+        content: "";
+        height: 18px;
+        width: 4px;
+        background: $primary;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+.box-wiget {
+    margin-bottom: 50px;
+}
+
+.local-wiget {
+    margin-bottom: 36px;
+    li {
+        margin-bottom: 10px;
+    }
+    span {
+        font-size: $font-16;
+        font-weight: 700;
+        margin-bottom: 15px;
+        display: inline-block;
+        color: $light;
+        &::before {
+            font-family: 'FontAwesome';
+            content: "\f0da";
+            margin-right: 10px;
+            color: $primary;
+        }
+    }
+}
+
+footer {
+    background: #1d1d1d;
+    color: $light;
+    font-size: $font-14;
+}
+
+.news-wiget {
+    li {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #2d2d2d;
+    }
+}
+
+.item-news {
+    display: inline-block;
+    margin-bottom: 10px;
+    .item-img {
+        width: 30%;
+        float: left;
+        margin-right: 3%;
+        img {
+            border-radius: 3px;
+        }
+    }
+    .item-text {
+        width: 65%;
+        float: left;
+        &:hover {
+            a {
+                color: $primary;
+            }
+        }
+        a {
+            font-size: $font-14;
+            color: $light;
+            font-weight: 700;
+        }
+        i {
+            font-size: $font-14 - 3px;
+            color: #999;
+            &::before {
+                content: "-";
+            }
+        }
+    }
+}
+
+.bot-footer {
+    min-height: 40px;
+}
+
+.cat-img {
+    li {
+        margin: 1.5%;
+        width: 100/3 *1% - 3.5%;
+        float: left;
+        img {
+            border-radius: 3px;
+        }
+    }
+}
+
+.icon-item {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    border-radius: 1px;
+}
+
+.social {
+    margin-bottom: 0px;
+    text-align: right;
+    line-height: 40px;
+    li {
+        display: inline;
+        margin-right: 16px;
+        a {
+            color: #676767;
+            font-size: 16px;
+        }
+    }
+}
+
+#copy-right {
+    font-size: $font-14;
+    color: $light;
+    line-height: 40px;
+}
